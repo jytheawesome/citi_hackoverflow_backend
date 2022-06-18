@@ -10,6 +10,7 @@ dependencies:
     - cython
     - numpy
     - prophet
+    - libpython m2w64-toolchain
     - pystan
     - streamlit
     - plotly==5.8.2

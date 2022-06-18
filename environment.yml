@@ -4,26 +4,13 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - cython=0.29.30=py38h885f38d_0
-  - matplotlib=3.5.2=py38haa244fe_0
-  - matplotlib-base=3.5.2=py38he529843_0
-  - mkl=2022.1.0=h6a75c08_874
-  - msys2-conda-epoch=20160418=1
-  - munkres=1.1.4=pyh9f0ad1d_0
-  - netcdf4=1.5.8=nompi_py38h0500770_101
-  - numpy=1.22.4=py38h1d2777f_0
-  - openjpeg=2.4.0=hb211442_1
-  - openssl=1.1.1o=h8ffe710_0
-  - packaging=21.3=pyhd8ed1ab_0
-  - pandas=1.4.2=py38hcc40339_2
-  - pillow=9.1.1=py38hd8e0db4_1
-  - pip=21.2.2=py38haa95532_0
-  - prophet=1.0.1=py38h43734a8_3
-  - pystan=2.19.1.1=py38h02adce6_3
-  - python=3.8.13=h6244533_0
-  - python-dateutil=2.8.2=pyhd8ed1ab_0
-  - python_abi=3.8=2_cp38
+  - pip=21.2.2
+  - python=3.8.13
   - pip:
+    - cython
+    - numpy
+    - prophet
+    - pystan
     - streamlit
     - plotly==5.8.2
     - yfinance==0.1.72

@@ -7,9 +7,9 @@ dependencies:
   - pip=21.2.2
   - python=3.8.13
   - pip:
+    - m2w64-toolchain
     - cython
     - numpy
-    - m2w64-toolchain
     - pystan==2.19.1.1 
     - streamlit
     - plotly==5.8.2

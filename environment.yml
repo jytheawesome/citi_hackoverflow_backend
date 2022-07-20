@@ -14,3 +14,4 @@ dependencies:
     - streamlit
     - plotly==5.8.2
     - prophet
+    - yfinance

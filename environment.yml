@@ -12,6 +12,6 @@ dependencies:
   - pandas
   - pystan
   - prophet
-pip:
+  - pip:
     - m2w64-toolchain
     - libpython

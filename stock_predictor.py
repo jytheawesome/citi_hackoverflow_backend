@@ -12,8 +12,11 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Stock Forecast App')
 
-stocks = ('GOOG', 'AAPL', 'MSFT', 'GME', 'TSLA', 'MO')
+stocks = ('GOOG', 'AAPL', 'MSFT', 'GME', 'TSLA', 'MO', 'BABA', 'NYA', 'VTI', 'VOO')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
+st.caption('GOOG = Google, APPL = APPLE, MSFT = Microsoft, GME = Gamestop, TSLA = Tesla, MO = Altria, BABA = Alibaba')
+st.caption('The above stocks are individual company stocks. Investing in them is inherently more risky than composite stocks.')
+st.caption('NYA = NYSE Composite , VTI = Vanguard Total Stock Market ETF, VOO = Vanguard 500 Index Fund')
 
 n_years = st.slider('Years of prediction:', 1, 4)
 period = n_years * 365

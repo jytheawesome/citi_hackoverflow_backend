@@ -12,5 +12,5 @@ dependencies:
     - pystan==2.19.1.1 
     - streamlit
     - plotly==5.8.2
-    - yfinance==0.1.72
+    - yfinance
     - prophet
